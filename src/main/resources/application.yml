@@ -1,0 +1,13 @@
+spring:
+   profiles:
+     active: local
+
+---
+spring:
+  profiles: local
+server:
+  port: 8080
+  address: 127.0.0.1
+
+
+
